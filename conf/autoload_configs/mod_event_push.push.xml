@@ -1,0 +1,10 @@
+<configuration name="mod_event_push.conf.xml" description="Mod Event Push">
+  <settings>
+    <!-- comma-delimited hosts for a replica set -->
+    <param name="uri" value="http://localhost/pub?id="/>
+    <!-- should be improved for multitenancy -->
+    <!-- <param name="channel" value="50c41fb8-d99f-46ef-b4e3-abf12d106059"/> -->
+    <!-- like here, variable to be set in dialplan -->
+    <param name="http_channel_var" value="${http_channel_var}"/>
+  </settings>
+</configuration>
